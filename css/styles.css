@@ -129,35 +129,92 @@ body.c2 {
   padding-top: 100px;
 }
 
-.general2{
-    background-color: white;
-    width: 166.4px;
-    height: 193.87px;
-    margin: 0;
+.general2 {
+  background-color: white;
+  width: 166.4px;
+  height: 193.87px;
+  margin: 0;
 }
-.general2 img{
-    width: 166.4px;
-    height: 193.87px;
-    margin-bottom: -3px;
+.general2 img {
+  width: 166.4px;
+  height: 193.87px;
+  margin-bottom: -3px;
 }
-.blanco{
-    width: 166.4px;
-    height: 193.87px;
-    background-color: white;
-    margin: 0px;
-}
-
-.p1{
-    padding: 10px;
-    padding-top: 20px;
+.blanco {
+  width: 166.4px;
+  height: 150.87px;
+  background-color: white;
+  margin: 0px;
 }
 
-.izq{
-    display: flex;
-    padding: 10px;
-    align-items: start;
-    font-size: 12.56px
+.p1 {
+  padding: 10px;
+  padding-top: 20px;
 }
-.der{
 
+.izq {
+  display: flex;
+  padding: 10px;
+  align-items: start;
+  font-size: 12.56px;
+}
+.der {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  font-size: 12.56px;
+  padding-right: 12px;
+  margin-top: -40px;
+}
+
+.verde {
+  background-color: #32a636;
+  height: 18px;
+  width: 18px;
+  margin-right: 2px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bolder;
+}
+
+.gris {
+  color: grey;
+}
+
+.from {
+  color: #1a2b49;
+}
+
+.dinero {
+  color: #1a2b49;
+  font-weight: bolder;
+}
+.bott {
+  padding-top: 45px;
+}
+
+/* PROTOTIP 3 */
+.main3 {
+  border: solid 1px lightskyblue;
+  background-color: white;
+  width: 379.57px;
+  height: 125.24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hand img{
+    width: 57.160252025112186px;
+    height: 57.160252025112186px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.text{
+    color: #1A2B49;
+
+}
+
+.text h1{
+    width: 136.79926247601088px;
 }
